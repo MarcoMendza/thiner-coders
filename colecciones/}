@@ -1,0 +1,9 @@
+
+lista = ["ITT", "ISC", "TIC's", "IQ", "MENC", "IG"]
+
+print(lista[0:2])
+
+print(lista[5])
+
+print(lista[:5])
+
