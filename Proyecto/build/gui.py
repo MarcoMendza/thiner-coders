@@ -11,7 +11,7 @@ from tkinter import Tk, Canvas, Entry, Text, Button, PhotoImage
 
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(r"/home/astaroth/Desktop/thiner-coders/Proyecto/build/assets/frame0")
+ASSETS_PATH = OUTPUT_PATH / Path(r"/home/astaroth/Desktop/Topicos/thiner-coders/Proyecto/build/assets/frame0")
 
 
 def relative_to_assets(path: str) -> Path:
@@ -20,15 +20,15 @@ def relative_to_assets(path: str) -> Path:
 
 window = Tk()
 
-window.geometry("1203x823")
+window.geometry("1226x748")
 window.configure(bg = "#FFFFFF")
 
 
 canvas = Canvas(
     window,
     bg = "#FFFFFF",
-    height = 823,
-    width = 1203,
+    height = 748,
+    width = 1226,
     bd = 0,
     highlightthickness = 0,
     relief = "ridge"
@@ -45,7 +45,7 @@ image_1 = canvas.create_image(
 
 canvas.create_text(
     451.0,
-    10.999999999999886,
+    11.0,
     anchor="nw",
     text="Cute Converter",
     fill="#000000",
@@ -63,7 +63,7 @@ button_1 = Button(
 )
 button_1.place(
     x=291.0,
-    y=528.9999999999999,
+    y=529.0,
     width=155.0,
     height=36.0
 )
@@ -79,7 +79,7 @@ button_2 = Button(
 )
 button_2.place(
     x=1008.0,
-    y=528.9999999999999,
+    y=529.0,
     width=155.0,
     height=36.0
 )
@@ -95,7 +95,7 @@ button_3 = Button(
 )
 button_3.place(
     x=74.0,
-    y=528.9999999999999,
+    y=529.0,
     width=155.0,
     height=36.0
 )
@@ -111,7 +111,7 @@ button_4 = Button(
 )
 button_4.place(
     x=731.0,
-    y=660.9999999999999,
+    y=661.0,
     width=200.0,
     height=51.0
 )
@@ -126,8 +126,8 @@ button_5 = Button(
     relief="flat"
 )
 button_5.place(
-    x=951.0,
-    y=719.9999999999999,
+    x=975.0,
+    y=653.0,
     width=219.0,
     height=73.0
 )
@@ -136,7 +136,7 @@ entry_image_1 = PhotoImage(
     file=relative_to_assets("entry_1.png"))
 entry_bg_1 = canvas.create_image(
     431.5,
-    686.4999999999999,
+    686.5,
     image=entry_image_1
 )
 entry_1 = Entry(
@@ -147,14 +147,14 @@ entry_1 = Entry(
 )
 entry_1.place(
     x=237.0,
-    y=652.9999999999999,
+    y=653.0,
     width=389.0,
     height=65.0
 )
 
 canvas.create_text(
     46.0,
-    660.9999999999999,
+    661.0,
     anchor="nw",
     text="Path:",
     fill="#000000",
@@ -163,9 +163,9 @@ canvas.create_text(
 
 canvas.create_rectangle(
     193.0,
-    120.99999999999989,
+    121.0,
     1098.0,
-    444.9999999999999,
+    445.0,
     fill="#02C0FC",
     outline="")
 
@@ -212,7 +212,7 @@ button_8 = Button(
 )
 button_8.place(
     x=753.0,
-    y=528.9999999999999,
+    y=529.0,
     width=155.0,
     height=36.0
 )
@@ -228,7 +228,7 @@ button_9 = Button(
 )
 button_9.place(
     x=546.0,
-    y=528.9999999999999,
+    y=529.0,
     width=155.0,
     height=36.0
 )
